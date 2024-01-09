@@ -5,6 +5,7 @@ body {
   padding: 0;
   height: 100%;
 }
+
 .background {
   position: relative;
   height: 100vh;
@@ -14,6 +15,7 @@ body {
   margin: 25px 50px;
   border-radius: 5px;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -21,18 +23,21 @@ body {
   width: 100%;
   height: 100%;
 }
+
 .content {
   color: #fff;
   text-align: center;
   font-size: 40px;
   margin: 245px 245px;
 }
+
 .second-part {
   color: #f00;
   text-align: center;
   justify-content: center;
   margin: 50px 50px;
 }
+
 #mega {
   color: #f00;
   font-size: 88px;
@@ -40,12 +45,14 @@ body {
   font-weight: 700;
   line-height: normal;
 }
+
 #pragraph {
   color: #f00;
   font-size: 24px;
   font-weight: 500;
   line-height: normal;
 }
+
 #header {
   color: #070211;
   text-align: center;
@@ -55,12 +62,11 @@ body {
   font-weight: 700;
   line-height: normal;
 }
+
 .third-content {
-  background: -webkit-linear-gradient(
-    90deg,
-    #070211 0%,
-    rgba(7, 2, 17, 0) 100%
-  );
+  background: -webkit-linear-gradient(90deg,
+      #070211 0%,
+      rgba(7, 2, 17, 0) 100%);
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../resources/Vectorrr.png");
   background-repeat: no-repeat;
@@ -71,10 +77,12 @@ body {
   display: block;
   margin: auto;
 }
+
 .third-div {
   display: flex;
   align-items: center;
 }
+
 .third-header {
   color: #fff;
   font-size: 64px;
@@ -84,34 +92,229 @@ body {
   width: 640px;
   margin: 126px 0px 24px 126px;
 }
-.third-pragraph{
-color: rgba(255, 255, 255, 0.80);
-font-size: 18px;
-font-weight: 400;
-line-height: 30px; 
-margin: 50px 126px;
+
+.third-pragraph {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 50px 126px;
 }
-.third-btn{
-color: #d54c4c;
-border: none;
-text-align: center;
-font-size: 20px;
-font-weight: 700;
-cursor: pointer;
-text-transform: uppercase;
-padding: 17px 30px;
-margin: 43px 159px;
+
+.third-btn {
+  color: #d54c4c;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 17px 30px;
+  margin: 43px 159px;
 }
-.front-image{
-    display: flex;
-    width: 320px;
-    height: 465px; 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 170px 40px 0px;
+
+.front-image {
+  display: flex;
+  width: 320px;
+  height: 465px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 170px 40px 0px;
 }
-.front-img{
-    position: relative;
-    
+
+.front-img {
+  position: relative;
+}
+
+.four-content {
+  display: block;
+  margin: auto;
+  padding-top: 120px;
+}
+
+.four-header {
+  width: 1600px;
+  height: 482px;
+  border-radius: 16px;
+  background: linear-gradient(180deg,
+      rgba(255, 0, 0, 0.1) 0%,
+      rgba(255, 0, 0, 0) 100%);
+  display: block;
+  margin: auto;
+  padding-top: 110px;
+}
+
+.four-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.red-title{
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.btn{
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #F00;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  margin: auto;
+
+}
+.btn:hover {
+    background: transparent;
+    border: 3px solid red;
+    cursor: pointer;
+    color: red;
+}
+.awesome {
+  display: block;
+  margin: auto;
+  width: 1600px;
+}
+
+.best-gift {
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.awesome-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+
+.awesome-text {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 46px;
+}
+
+.image-glary {
+  display: flex;
+  gap: 24px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.images-box {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+.images-box:hover{
+  transform: scale(0.5);
+  filter: brightness(30%);
+}
+.newsletter {
+  margin: 120px auto;
+}
+
+.newsletter-section {
+  width: 1600px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.email-images {
+  width: 150px;
+  height: 150px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.subcribe-titel {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.newsletter-text {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: auto;
+}
+
+#email {
+  width: 648px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 50px 0px 0px 50px;
+  background: #FFF;
+  color: rgba(7, 2, 17, 0.30);
+  text-align: left;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  margin-bottom: 80px;
+  margin-top: 48px;
+  padding-left: 30px;
+
+}
+
+#subscribe {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  width: 210px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #F00;
+  border: none;
+  cursor: pointer;
+
+}
+
+#subscribe:hover {
+  background: rgb(53, 53, 53);
 }
